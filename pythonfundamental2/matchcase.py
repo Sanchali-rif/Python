@@ -6,3 +6,5 @@ match color:
         print("Look")
     case "Red":
         print("Stop")
+    case _:
+        print("Wrong color")
