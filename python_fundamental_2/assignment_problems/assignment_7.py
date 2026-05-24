@@ -2,9 +2,15 @@
 # and print whether it is positive or negative
 # until the user enters "Quit".
 
-
-a=int(input("enter a num:"))
-if(a>=0):
-    print("positive")
-else:
-    print("negative")
+while True:
+    a = input("enter a number or type 'quit' to stop:")
+    if a.lower() == "quit":
+        print("goodbye!")
+        break
+    a = int(a)
+    if a > 0:
+        print("positive")
+    elif a < 0:
+        print("negative")
+    else:
+        print("zero")
