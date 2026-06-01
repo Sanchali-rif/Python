@@ -1,3 +1,7 @@
-tup=(3,6,45,34,"str",76.5)
+tup=(3,6,45,34,8,2,3,4,2,8)
+sum=0
+print(tup.index(3))
+print(tup.count(3))
 for val in tup:
-    print(val) #yes
+    sum=sum+val
+print(sum)
