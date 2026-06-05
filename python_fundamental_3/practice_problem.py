@@ -15,6 +15,24 @@ info=[
     ("alice","english"),
     ("charlie","english"),
 ]
-s=set()
-for i in info:
-    print(i)
+course=set()
+for tup in info:
+    course.add(tup[1])
+print("All unique courses are-",course)
+
+print("\nAll students enrolled in English:")
+for name,course in info:
+    if course=="english":
+        print(name)
+
+dict={}
+student_set=set()
+for tup in info:
+    student_set.add(tup[0])
+for student in student_set:
+        dict.update({student:set()})
+for name,course in info:
+     for i in dict:
+          if name==i:
+               dict[i].add(course)
+print("\nthe dictionary is -",dict)
