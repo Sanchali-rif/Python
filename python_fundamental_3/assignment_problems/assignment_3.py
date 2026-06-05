@@ -1,0 +1,4 @@
+# Input two lists of integers from the user.
+# Merge them into one list and sort the result.
+
+l1=[]
