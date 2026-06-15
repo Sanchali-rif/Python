@@ -1,7 +1,18 @@
 # Write a program to check whether two lists share no common elements.
 
-L1=[1,2,3,4,]
-L2=[5,6,7,8]
+L1=[]
+L2=[]
+
+a=int(input("enter number of elements in list 1:"))
+for i in range(1,a+1):
+    b=int(input("enter elemnt:"))
+    L1.append(b)
+
+y=int(input("enter number of elements in list 2:"))
+for i in range(1,y+1):
+    b=int(input("enter elemnt:"))
+    L2.append(b)
+print("the list are-",L1,L2)
 s=set()
 c=set()
 x=set()
