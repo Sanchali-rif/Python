@@ -3,7 +3,7 @@ with open(r"C:\Users\sahas\OneDrive\Desktop\vscode\Python\python_fundamentals_5\
     lines=f.readlines()
     num=1
     for line in lines:
-        if("Digital" in line):
+        word=line.split()
+        if("Digital" in word):
             print(f"word found at line {num}")
-            break
         num=num+1
