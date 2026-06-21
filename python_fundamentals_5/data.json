@@ -1,0 +1,13 @@
+{
+    "name": "Sanchali",
+    "age": 20,
+    "address": {
+        "street": "Park Street",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "pincode": 700016
+    },
+    "course": "IT Engineering",
+    "skills": ["Python", "UI/UX", "Web Design"],
+    "is_student": true
+}
