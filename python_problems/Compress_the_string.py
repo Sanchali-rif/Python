@@ -1,7 +1,7 @@
 """
 Problem: Compress the String!
 Platform: HackerRank
-Difficulty: Easy
+Difficulty: medium
 Concepts: itertools.groupby(), Iterators, Strings
 
 Problem Link:
